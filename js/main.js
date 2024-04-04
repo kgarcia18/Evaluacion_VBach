@@ -1,6 +1,7 @@
 import { lista_de_componentes } from "./Data.js";
 
 function cargar_div(){
+    console.log(lista_de_componentes);
 
     let div = document.querySelector("#root");
 
